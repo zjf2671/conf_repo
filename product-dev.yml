@@ -1,5 +1,2 @@
-foo:
-  name: lisi
-  age: 22
-  sex: 1
+env: dev
 
