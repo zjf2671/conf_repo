@@ -1,8 +1,9 @@
-foo:
-  name: zhangshan
-  age: 18
-  sex: 1
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8800/eureka/
+foo:
+  name: zhangshan
+  age: 18
+  sex: 1
+
