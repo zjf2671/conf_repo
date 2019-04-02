@@ -1,5 +1,5 @@
 env: dev
-spring
+spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
