@@ -21,14 +21,6 @@ mybatis-plus:
     cache-enabled: false
     call-setters-on-nulls: true
     jdbc-type-for-null: 'null'
-app:
-    # 是通过jwt认证的，可以进行修改【加密秘钥】
-    jwt:
-        # 加密秘钥
-        secret: f4e2e52034348f86b67cde581c0f9eb5
-        # token有效时长，7天，单位秒
-        expire: 604800
-        header: token
 
 logging:
   level:
